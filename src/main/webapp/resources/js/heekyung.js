@@ -623,7 +623,7 @@ hee.register = (function(){
 												.click(e=>{
 													alert('메인 페이지로!!!! 수정수정');
 													
-													app.common.init(ctx);
+													app.main.init();
 												});
 										})
 								);
@@ -646,7 +646,7 @@ hee.register = (function(){
  *******************************/
 var reservation={
 		layout:()=>{
-			return '<body style="position: relative;">'
+			return '<div style="position: relative;">'
 			+'<div id="container" style="width: 100%">'
 			+'<div id="moveDiv0"></div>'
 			+'	<div id="imgbox" style="margin: auto; width: 100%; height:550px;'

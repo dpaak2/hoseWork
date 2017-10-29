@@ -18,7 +18,6 @@ app.requireLogin=(()=>{
 		ctx = $$('x');
 		img = $$('i');
 		js = $$('j');
-		$navbar=$('#navbar');
 		temp=js + '/template.js';
 		onCreate();
 	};
@@ -737,19 +736,19 @@ app.navbar=(function(){
 			    	hee.rev.init();
 		    });
 		
-		    $('#mainJoin').attr({'data-toggle':'modal', 'data-target':"#myModal222"}).click(e=>{
+	/*	    $('#mainJoin').attr({'data-toggle':'modal', 'data-target':"#myModal222"}).click(e=>{
 		    	alert('회원가입');
 				   chobongki.common.init();
 		    });
 		    $('#mainLogin').attr({'data-toggle':'modal', 'data-target':"#myModal111"}).click(e=>{		    	
 		    	alert('로그인');
 		    			   chobongki.common.init(ctx);
-		    });
-		    $('#mainJoin').click(e=>{
+		    });*/
+		   /* $('#mainJoin').click(e=>{
 	             alert('회원가입');
 	              $('body').html(cho.join());
-	                chobongki.index.init(); 
-	          });
+	                chobongki.index.init(ctx); 
+	          });*/
 		    
 		    // mainHost,...
 		    $('#mainHost').click(e=>{

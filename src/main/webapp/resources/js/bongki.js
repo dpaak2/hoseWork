@@ -153,8 +153,8 @@ chobongki.index=(()=>{
 	                           sessionStorage.setItem('sregdate',d.list.regdate);
 	                           sessionStorage.setItem('sbirthdate',d.list.birthdate);
 	                           sessionStorage.setItem('spassword',d.list.memberPassword);
-	                           app.common.init(ctx);
-                               app.main.init();                                                                                               
+	                         //  app.common.init(ctx);
+                               app.main.init(ctx);                                                                                               
 	                         }        
 	                    					
 					 }
