@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.airbnb.web.mapper.HYMapper">
+
+ <insert id="insert">
+	</insert>
+
+	<select id="selectList" parameterType="com.airbnb.web.command.Command" resultType="map">
+		SELECT * FROM Residence
+		<!-- <if test="title != null">
+		    AND title like #{action}
+		 </if> -->
+	</select>
+
+	<select id="count">
+
+	</select>
+
+	<select id="selectOne">
+			<!-- SELECT * FROM Residence WHERE host_serial = #{action} -->
+	</select>
+
+	<update id="update" >
+	
+	</update>
+
+	<delete id="delete" parameterType="com.airbnb.web.command.Command">
+	
+	</delete> 
+</mapper>
